@@ -8,7 +8,7 @@ export default defineConfig({
     org: "jsm-lt",
     project: "javascript-react"
   })],
-  base: '/Apple-clone/',
+  base: '/Apple_clone/',
 
   build: {
     sourcemap: true
