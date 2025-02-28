@@ -11,9 +11,9 @@ import React, { useEffect, useRef } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 
 function Model(props) {
-  const glbPath = `${import.meta.env.BASE_URL}models/scene.glb`;
+  
 
-  const { nodes, materials } = useGLTF(glbPath);
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}models/scene.glb`);
 
   const texture = useTexture(props.item.img);
 
