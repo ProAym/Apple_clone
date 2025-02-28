@@ -260,4 +260,4 @@ function Model(props) {
 
 export default Model;
 
-useGLTF.preload("/models/scene.glb");
+useGLTF.preload(`${import.meta.env.BASE_URL}models/scene.glb`);
